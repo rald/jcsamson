@@ -1,0 +1,22 @@
+{
+  "name": "jcsamson",
+  "description": "",
+  "image": "heroku/python",
+  "repository": "",
+  "keywords": ["python", "django" ],
+  "addons": [],
+  "env": {
+    "SECRET_KEY": {
+      "description": "it's alive",
+      "generator": "secret"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test"
+      }
+    }
+  }
+}

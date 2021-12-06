@@ -1,0 +1,13 @@
+{% extends "contactus/base.html" %}
+
+{% load static %}
+
+{% block title %}functionv{% endblock %}
+
+{% block content %}
+
+  {{ contact.full_name }}<br/>
+  {{ contact.email }}<br/>
+  {{ contact.date_entry }}<br/>
+
+{% endblock %}

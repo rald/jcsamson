@@ -1,0 +1,9 @@
+{% extends 'contactus/base.html' %}
+
+{% block content %}
+
+  {% for contact in contact_list %}
+    <a href="{% url 'functionv' contact.id %}">{{ contact.full_name }}</a><br/>
+  {% endfor %}
+  
+{% endblock %}
