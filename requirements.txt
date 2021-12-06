@@ -1,5 +1,5 @@
 wheel
 django
 django-heroku
-pillow
+Pillow
 gunicorn
