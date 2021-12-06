@@ -1,1 +1,1 @@
-web: gunicorn Jinki_Calumba_Samson.wsgi
+web: gunicorn jcsamson.wsgi
