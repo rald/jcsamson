@@ -1,4 +1,5 @@
+wheel
 django
-gunicorn
 django-heroku
 pillow
+gunicorn
