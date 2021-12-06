@@ -1,7 +1,5 @@
 from django.db import models
 
-from PIL import Image
-
 from django.utils import timezone
 
 class ContactData(models.Model):
